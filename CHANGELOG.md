@@ -1,3 +1,11 @@
+## 1.1.0
+
+No functional changes.
+
+- Ruby 3.2 support
+- Remove CI / CD support for unsupported Ruby & Rails versions
+- Ensure compatibility with opensearch-ruby 3
+
 ## 1.0.0
 
 * Support OpenSearch 2 by removing deprecated type and include_type_name parameters

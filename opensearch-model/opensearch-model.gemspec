@@ -24,7 +24,7 @@ require 'opensearch/model/version'
 Gem::Specification.new do |s|
   s.name          = 'opensearch-model'
   s.version       = OpenSearch::Model::VERSION
-  s.authors       = ['Compliance Innovations B.V.']
+  s.authors       = ['CDD Solutions B.V.']
   s.email         = ['developers@compliance-innovations.com']
   s.description   = 'ActiveModel/Record integrations for OpenSearch.'
   s.summary       = 'ActiveModel/Record integrations for OpenSearch.'
@@ -42,7 +42,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.4'
 
   s.add_dependency 'activesupport', '> 3'
-  s.add_dependency "opensearch-ruby", '~> 2.0'
+  s.add_dependency "opensearch-ruby", '>= 2'
   s.add_dependency 'hashie'
 
   s.add_development_dependency 'activemodel', '> 3'

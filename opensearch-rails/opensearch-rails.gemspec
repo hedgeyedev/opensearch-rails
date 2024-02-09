@@ -23,7 +23,7 @@ require 'opensearch/rails/version'
 Gem::Specification.new do |s|
   s.name          = 'opensearch-rails'
   s.version       = OpenSearch::Rails::VERSION
-  s.authors       = ['Compliance Innovations B.V.']
+  s.authors       = ['CDD Solutions B.V.']
   s.email         = ['developers@compliance-innovations.com']
   s.description   = 'Ruby on Rails integrations for OpenSearch.'
   s.summary       = 'Ruby on Rails integrations for OpenSearch.'
@@ -52,7 +52,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'minitest'
   s.add_development_dependency 'mocha'
   s.add_development_dependency 'pry'
-  s.add_development_dependency 'rails', '> 3.1'
+  s.add_development_dependency 'rails', '> 6.1'
   s.add_development_dependency 'rake', '~> 12'
   s.add_development_dependency 'require-prof'
   s.add_development_dependency 'shoulda-context'
